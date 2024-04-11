@@ -384,6 +384,17 @@ body.nav-active {
   z-index: 1;
 }
 
+.btn.btn-primary.custom-btn {
+  border-color: #268cac !important;
+}
+
+.btn.btn-primary.custom-btn:hover {
+  border-color: #268cac !important;
+}
+.custom-btn .text {
+  color: #4577bee3 !important; /* Color blanco para el texto */
+}
+
 .btn::before {
   content: "";
   position: absolute;
